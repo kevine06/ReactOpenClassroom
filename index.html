@@ -6,17 +6,14 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
 </head>
 <body>
-    <div id="output">bonjour</div>
-
+    <div id="root">
+        <!-- Le contenu de cet élément HTML sera remplacé par mes composants React -->
+    </div>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script type="text/babel">
-        const getMessage = () => "Hello World";
-  document.getElementById("output").innerHTML = getMessage();
-    </script>
+    <script src='index.js' type="text/babel"></script>
 </body>
 </html>
